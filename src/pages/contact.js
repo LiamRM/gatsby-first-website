@@ -6,8 +6,8 @@ export default function Contact() {
   return (
     <div style={{ color: "teal" }}>
       <Link to="/">Home</Link>
-      <Header headerText="Contact"></Header>
-      <p>Send us a message!</p>
+      <Header headerText="The Message"></Header>
+      <p>You're looking cute ;)</p>
     </div>
   )
 }
