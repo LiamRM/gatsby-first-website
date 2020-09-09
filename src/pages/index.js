@@ -111,7 +111,6 @@ export default function Home() {
             color="primary"
             onClick={() => {
               addOneHug(donations)
-              getRealtimeUpdates()
             }}
           >
             Donate 1 hug
@@ -123,7 +122,6 @@ export default function Home() {
             color="primary"
             onClick={() => {
               addTenHugs(donations)
-              getRealtimeUpdates()
             }}
           >
             Donate 10 hugs
@@ -135,8 +133,6 @@ export default function Home() {
             color="primary"
             onClick={() => {
               addHundredHugs(donations)
-              getRealtimeUpdates()
-              console.log("Local donations: ", donations)
             }}
           >
             Donate 100 hugs
@@ -148,7 +144,6 @@ export default function Home() {
             color="green"
             onClick={() => {
               refreshPage()
-              // window.location.reload(true)
             }}
           >
             Refresh
