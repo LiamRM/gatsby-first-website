@@ -102,7 +102,7 @@ export default function Home() {
         </Grid>
         <Grid item xs={12}>
           <Typography id="totaldonations" variant="h4">
-            Total Donations: {donations}
+            Total hugs to be given: {donations} hugs
           </Typography>
         </Grid>
         <Grid item xs={4}>
